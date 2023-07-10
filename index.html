@@ -9,13 +9,30 @@
         color: white;
         background-color: rgba(0, 0, 0, 0.84);
       }
-      .i{
+      #run {
+        margin-right: 30px;
+      }
+      .i {
         color: rgb(255, 81, 0);
       }
-      .link
-      {
+      .link {
         text-transform: uppercase;
         text-decoration: none;
+        margin-right: 15px;
+      }
+      #name {
+        padding-left: 10px;
+      }
+      #ruin {
+        margin-right: 19px;
+      }
+      nav ul li {
+        display: inline-block;
+      }
+      footer ul li{
+        display: inline-block;
+        text-decoration: none;
+        
       }
     </style>
     <link
@@ -24,31 +41,42 @@
     />
   </head>
   <body>
-    <header>&nbsp;
-      <i class="fa fa-user" aria-hidden="true"></i> &nbsp;<span
-        >Jayant Shelke</span
+    <header>
+      <i class="fa fa-user" id="run" aria-hidden="true"
+        ><span id="name">Jayant Shelke</span></i
       >
-      &nbsp; &nbsp;
-      <i class="fa fa-phone-square" aria-hidden="true"></i> &nbsp;<span
-        >9860 2598 68</span
+      <i class="fa fa-phone-square" id="run" aria-hidden="true"
+        ><span id="name">9860 2598 68</span></i
       >
-      &nbsp; &nbsp;
-      <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;<span
-        >jayantshelke4829@gmail.com</span
+      <i class="fa fa-envelope" id="run" aria-hidden="true"
+        ><span id="name">jayantshelke4829@gmail.com</span></i
       >
-      &nbsp; &nbsp;
-      <a href="" download="Jayant Resume (2).pdf"
+
+      <a href="" download="Jayant Resume (2).pdf" id="run"
         ><button>Download Resume</button></a
       >
     </header>
     <br /><br />
     <nav class="link">
-      <a class="link" href="home.html" target="myFrame">Home</a> &nbsp; &nbsp;
-      <a class="link" href="assets/techStack.html" target="myFrame">Tech Stack</a> &nbsp;
-      &nbsp; <a class="link" href="assets/project.html" target="myFrame">Project</a> &nbsp;
-      &nbsp; <a class="link" href="education.html" target="myFrame">Education</a> &nbsp;
-      &nbsp;
-      <a class="link" href="aboutMe.html" target="myFrame">About Me</a>
+      <ul>
+        <li><a class="link" href="home.html" target="myFrame">Home</a></li>
+        <li>
+          <a class="link" href="assets/techStack.html" target="myFrame"
+            >Tech Stack</a
+          >
+        </li>
+        <li>
+          <a class="link" href="assets/project.html" target="myFrame"
+            >Project</a
+          >
+        </li>
+        <li>
+          <a class="link" href="education.html" target="myFrame">Education</a>
+        </li>
+        <li>
+          <a class="link" href="aboutMe.html" target="myFrame">About Me</a>
+        </li>
+      </ul>
       <br /><br />
     </nav>
     <iframe
@@ -59,24 +87,46 @@
     ></iframe>
     <br /><br />
     <footer>
-      <span>Follow Me </span> &nbsp; &nbsp;
-      <a href="https://github.com/jayantshelke4829/my-profile" class="i" target="_blank"
-        ><i class="fa fa-2x fa-github" aria-hidden="true"></i
-      ></a>
-      &nbsp; &nbsp;
-      <a
-        href="https://www.linkedin.com/in/jayant-shelke-a26060230/" class="i"
-        target="_blank"
-        ><i class="fa fa-2x fa-linkedin" aria-hidden="true"></i
-      ></a>
-      &nbsp; &nbsp;
-      <a href="https://www.facebook.com/jayant.shelke.142/" class="i" target="_blank"
-        ><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i
-      ></a>
-      &nbsp; &nbsp;
-      <a href="https://www.instagram.com/jayant.shelke.142/" class="i" target="_blank"
-        ><i class="fa fa-2x fa-instagram" aria-hidden="true"></i
-      ></a>
+      
+      <ul>
+        <li><span id="ruin">Follow Me </span></li>
+        <li>
+          <a
+            id="ruin"
+            href="https://github.com/jayantshelke4829/my-profile"
+            class="i"
+            target="_blank"
+            ><i class="fa fa-2x fa-github" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            id="ruin"
+            href="https://www.linkedin.com/in/jayant-shelke-a26060230/"
+            class="i"
+            target="_blank"
+            ><i class="fa fa-2x fa-linkedin" aria-hidden="true"></i></a
+          >
+        </li>
+        
+        <li><a
+          id="ruin"
+          href="https://www.facebook.com/jayant.shelke.142/"
+          class="i"
+          target="_blank"
+          ><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i
+        ></a></li>
+        <li>
+          <a
+            id="ruin"
+            href="https://www.instagram.com/jayant.shelke.142/"
+            class="i"
+            target="_blank"
+            ><i class="fa fa-2x fa-instagram" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
+
       <p>
         Copyright &copy; 2023 Zoom Video Communications, Inc. All rights
         reserved.
