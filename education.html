@@ -3,119 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form</title>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+    <style>
+      table,
+      tr,
+      th,
+      td {
+        border: 2px solid rgb(0, 0, 0);
+        border-collapse: collapse;
+      }
+      h2 {
+        color: rgb(173, 230, 217);
+        background-color: rgb(26, 34, 47);
+        font-family: 'Poppins', sans-serif;
+      }
+      th
+      {
+        font-family: 'Poppins', sans-serif;
+        padding: 20px;
+      }
+      td
+      {
+        font-family: 'Signika Negative', sans-serif;
+        padding: 15px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <fieldset>
-        <legend> <h2> Student Registration Form  </h2>   </legend>
+    <h2>My Educational Details</h2>
     <table>
+      <thead>
+        <tr>
+          <th>Qualification</th>
+          <th>School/College</th>
+          <th>Board/University</th>
+          <th>year</th>
+          <th>percentage</th>
+        </tr>
+      </thead>
       <tbody>
-        
-        <form>
-          <tr>
-            <td>
-              <label for="fName"> First Name </label>
-            </td>
-            <td>
-              <input id="fName" type="text" autofocus required placeholder="Only Capitals"/>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label> Last Name </label>
-            </td>
-            <td>
-              <input type="text" placeholder="Only caps"/>
-            </td>
-          </tr>
-          <tr>
-            <td><label> Age </label></td>
-            <td><input type="number" required placeholder="Only age >= 18 allowed"  /></td>
-          </tr>
-          <tr>
-            <td><label> Name of your country </label></td>
-            <td><input type="text" value="India" readonly/></td>
-          </tr>
-          <tr>
-            <td> <label> Email </label>  </td>
-            <td> <input type="email"> </td>
-          </tr>
-          <tr>
-            <td> <label> Password </label> </td>
-            <td> <input type="password"> </td>
-          </tr>
-          <tr>
-            <td> <label> Mobile </label> </td>
-            <td> <input type="tel"> </td>
-          </tr>
-          <tr>
-            <td> <label> Date Of Birth </label> </td>
-            <td> <input type="date"> </td>
-          </tr>
-          <tr>
-            <td> Select Available for discussion </td>
-            <td> <input type="week"> </td>
-          </tr>
-          <tr>
-            <td> Suitable Time </td>
-            <td> <input type="time"> </td>
-          </tr>
-          <tr>
-            <td> <label> Select Gender </label>  </td>
-            <td>
-                <input type="radio" name="gender"> <label> Male</label>
-                <input type="radio" name="gender"> <label> Female </label>
-                <input type="radio" name="gender"> <label> Other</label>
-            </td>
-          </tr>
-          <tr>
-            <td> Technology Stack </td>
-            <td> 
-                <input type="checkbox"> <label> C </label>
-                <input type="checkbox"> <label> CPP </label>
-                <input type="checkbox"> <label> Java </label>
-                <input type="checkbox"> <label> Angular </label>
-                <input type="checkbox"> <label> React </label>
-                <input type="checkbox"> <label> DevOps </label>
-                <input type="checkbox"> <label> CI/CD Tools </label>
-            </td>
-          </tr>
-          <tr>
-            <td> <label> Upload photo </label>  </td>
-            <td> <input type="file"> </td>
-          </tr>
-          <tr>
-            <td> <label> Upload Documents</label> </td>
-            <td> <input type="file" multiple> </td>
-          </tr>
-          <tr>
-            <td> 
-                <label> Select your State </label>
-            </td>
-            <td>
-                <select>
-                    <option value="Maharashtra"> Maharashtra</option>
-                    <option value="Karnatka">Karnatka</option>
-                    <option value="AP">Andra Pradesh</option>
-                    <option value="UP">UP</option>
-                    <option value="Bihar">Bihar</option>
-                </select>
-            </td>
-          </tr>
-          <tr>
-            <td> <label> Address </label> </td>
-            <td>
-                <textarea cols="50" rows="8"></textarea>
-            </td>
-          </tr>
-          <tr>
-            <td> <button type="submit"> Register</button>  </td>
-            <td> <button type="reset">Reset</button> </td>
-          </tr>
-        </form>
-    
+        <tr>
+          <td>BE</td>
+          <td>CSMIT, Shedung, Panvel</td>
+          <td>Mumbai</td>
+          <td>2019</td>
+          <td>61%</td>
+        </tr>
+
+        <tr>
+          <td>Diploma</td>
+          <td>VJTI,Matunga,Mumbai</td>
+          <td>Autonoumous</td>
+          <td>2016</td>
+          <td>70%</td>
+        </tr>
+
+        <tr>
+          <td>SCC</td>
+          <td>DVS High School, Navi Mumbai</td>
+          <td>State Boaed</td>
+          <td>2013</td>
+          <td>86%</td>
+        </tr>
       </tbody>
     </table>
-</fieldset>
   </body>
 </html>

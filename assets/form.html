@@ -4,6 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Signika+Negative:wght@300&family=Sofia&display=swap" rel="stylesheet">
+    <style>
+      h2{
+        font-family: 'Poppins', sans-serif;
+      }
+      label{
+        font-family: 'Poppins', sans-serif;
+      }
+      input{
+        font-family: 'Signika Negative', sans-serif;
+        border-radius: 5px;
+        color: rgb(15, 168, 238);
+       font-size: large;
+       font-weight: bolder;
+      }
+      button{
+        border-radius: 15px;
+      }
+      #file{
+        border-radius: 0px;
+
+      }
+      textarea{
+        border-radius: 25px;
+      }
+
+    </style>
   </head>
   <body>
     <fieldset>
@@ -53,11 +82,11 @@
             <td> <input type="date"> </td>
           </tr>
           <tr>
-            <td> Select Available for discussion </td>
+            <td> <label>Select Available for discussion</label> </td>
             <td> <input type="week"> </td>
           </tr>
           <tr>
-            <td> Suitable Time </td>
+            <td><label>Suitable Time</label>  </td>
             <td> <input type="time"> </td>
           </tr>
           <tr>
@@ -69,7 +98,7 @@
             </td>
           </tr>
           <tr>
-            <td> Technology Stack </td>
+            <td> <label>Technology Stack </label></td>
             <td> 
                 <input type="checkbox"> <label> C </label>
                 <input type="checkbox"> <label> CPP </label>
@@ -82,11 +111,11 @@
           </tr>
           <tr>
             <td> <label> Upload photo </label>  </td>
-            <td> <input type="file"> </td>
+            <td> <input type="file" id="file"> </td>
           </tr>
           <tr>
             <td> <label> Upload Documents</label> </td>
-            <td> <input type="file" multiple> </td>
+            <td> <input type="file" multiple  id="file"> </td>
           </tr>
           <tr>
             <td> 
