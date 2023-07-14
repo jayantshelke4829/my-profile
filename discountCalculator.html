@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    
+    <style>
+        h2{
+            color: cadetblue;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+            margin-left: -1400px;
+        }
+        .bill{
+            color: cadetblue;
+            font-family: "Signika Negative", sans-serif;
+            font-weight: 600;
+            font-size: large;
+            word-spacing: 3px;    
+            margin-top: 10px;
+            display: block;
+        }
+        p{
+            color: cadetblue;
+            font-family: "Signika Negative", sans-serif;
+            font-weight: 600;
+            font-size: large;
+            word-spacing: 3px;
+            margin-top: 10px;  
+            margin-left: 10px;
+        }
+        button{
+            
+            background-color: #4caf50;
+            border-radius: 15px;
+            display: inline-block;
+            padding: 10px 250px;
+            margin-top: 15px;
+            color: rgb(255, 255, 255);
+            border-color: white;
+            
+        }
+        #bill{
+            margin-top: 10px;
+            display: block;
+            font-size: xx-large;
+        }
+        input{
+            font-size: 30px;
+        }
+        button:hover{
+            background-color: burlywood;
+        }
+        span{
+            font-size: x-large;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>Discount Calculator</h2>
+    <p>Enter the Bill amount and discount in percentage</p>
+    <table>
+        <tr class="bill">
+            <td>Bill Amount</td></tr>
+            <tr id="bill"><td><input type="tel" size="35" style="height: 40px;"></td></tr>
+            
+        
+        <tr class="bill">
+            <td>Discount Percentage</td></tr>
+            <tr id="bill"><td><input type="tel" size="35" style="height: 40px;"></td>
+        </tr>
+        <tr>
+            <td><button><span>Calculate</span></button></td>
+        </tr>
+        <tr class="bill">
+            <td>Total Discount Amount</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
