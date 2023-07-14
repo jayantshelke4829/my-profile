@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscriber</title>
+    <style>
+        .subscribe {
+            display: inline-block;
+            padding-bottom: 46px;
+            padding-right: 10px;
+            padding-left: 20px;
+            margin-left: 10px;
+            box-shadow: 10px 10px 5px rgb(126, 172, 188);
+
+            margin-bottom: 46px;
+            border-radius: 10px;
+            background-color: rgba(151, 203, 248, 0.818);
+
+        }
+
+        h2 {
+            font-family: "Poppins", sans-serif;
+        }
+
+        .sub {
+            display: inline-block;
+            background-color: rgb(0, 157, 255);
+            color: rgb(244, 240, 205);
+            border-radius: 10px;
+            margin-top: 20px;
+            padding: 15px;
+            padding-bottom: 50px;
+            font-family: "Signika Negative", sans-serif;
+        }
+
+        input {
+            padding-top: 12px;
+            padding-left: 12px;
+            font-size: large;
+            border-color: rgba(255, 255, 255, 0.104);
+
+
+        }
+
+        #in {
+            padding-right: 130px;
+            padding-bottom: 10px;
+            border-radius: 8px;
+            background-color: rgba(232, 237, 242, 0.619);
+
+        }
+
+        #put {
+            padding-right: 130px;
+            padding-bottom: 35px;
+            border-radius: 8px;
+            background-color: rgba(232, 237, 242, 0.619);
+
+
+        }
+
+        .email {
+            margin-top: 20px;
+            font-family: "Poppins", sans-serif;
+            padding-bottom: 50px;
+        }
+
+        td {
+            margin-top: 5px;
+            display: block;
+        }
+
+        p {
+            margin-bottom: -8px;
+            word-spacing: 3px;
+        }
+
+
+
+        #un {
+            margin-top: 20px;
+            margin-left: 275px;
+
+
+        }
+
+        table {
+            margin-top: 25px;
+        }
+
+        button {
+
+            padding: 5px;
+
+            background-color: rgba(232, 237, 242, 0.907);
+
+            border: none;
+        }
+
+        span {
+            color: red;
+        }
+
+        #fix {
+            padding-bottom: 40px;
+        }
+
+        hr {
+            margin-top: 25px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="subscribe">
+        <h2>Subscriber</h2>
+        <hr />
+        <div class="sub">
+            <p>
+                We're sorry to see you go, but hey, no hard </p>
+            <p>feelings, hopefully we will see you back </p>
+            <p>one day. </p>
+            <p>Please fill in your email address in order to </p>
+            <p>unsubscribe from the list. </p>
+
+            <p>You will receive an email to confirm your </p>
+            <p>unsubscription, just to make sure this is </p>
+            <p>not an accident or somebody else tries to </p>
+            <p>unsubscribe you.</p>
+
+        </div>
+        <div>
+            <table>
+                <tr id="email">
+                    <td><strong>Email</strong> <Span>*</Span></td>
+                    <td id="fix"><input id="in" type="email"></td>
+                </tr>
+        </div>
+        <div>
+            <tr>
+                <td><strong>Unsubscribe reason</strong></td>
+                <td><input id="put" type="text" placeholder="Unsubscribe reason"></td>
+
+            </tr>
+            <tr>
+                <td>
+                    <hr>
+                </td>
+                <td id="un">
+                    <button>Unsubscribe</button>
+                </td>
+            </tr>
+            </table>
+
+        </div>
+    </div>
+</body>
+
+</html>
